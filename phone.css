@@ -1,0 +1,54 @@
+/* This is css of responsive website in phone */
+
+
+/* #navbar */
+.container{
+    flex-direction: column;
+}
+ .container ul li a{
+     font-size: 1rem;
+     padding: 0px 1px;
+     padding-bottom: 10px;
+ }
+
+.btn{
+    font-size: 14px;
+    padding: 2px 4px;
+}
+
+/* #home */
+#home{
+    height: 300px;
+    padding: 20px;
+    margin: 29px;
+}
+#home::before{
+    height: 520px;
+}
+#home p{
+    font-size: 13px;
+}
+
+
+
+/* #services */
+
+#first{
+    flex-direction: column;
+}
+
+
+/* #client */
+#client{
+    flex-wrap: wrap;
+}
+#client img{
+    height: 42px;
+    padding: 2px;
+}
+
+/* contact us */
+
+
+
+/* footer */
